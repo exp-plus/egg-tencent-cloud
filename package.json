@@ -1,7 +1,7 @@
 {
-  "name": "egg-tencent-cloud",
-  "version": "0.0.1",
-  "description": "腾讯云",
+  "name": "@exp-plus/egg-tencent-cloud",
+  "version": "0.0.2",
+  "description": "Tencent Cloud for egg",
   "eggPlugin": {
     "name": "tencentCloud"
   },
@@ -40,6 +40,7 @@
     "autod": "autod"
   },
   "files": [
+    "index.d.ts",
     "app",
     "config",
     "agent.js",

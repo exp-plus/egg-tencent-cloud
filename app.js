@@ -1,9 +1,9 @@
 'use strict';
 
 
-const aiImage = require('./lib/ai-image');
-const cos = require('./lib/cos');
-const sms = require('./lib/sms');
+const aiImage = require('./lib/ai-image-loader');
+const cos = require('./lib/cos-loader');
+const sms = require('./lib/sms-loader');
 
 module.exports = app => {
   if (app.config.aiImage.client) {
